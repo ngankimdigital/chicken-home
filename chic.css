@@ -112,6 +112,15 @@ ul.vmenu>li>a:hover{
 
 
   
+.prod a image .name{
+    color:black;
+    font-size: 25px;
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+  
+}
 
 
 
