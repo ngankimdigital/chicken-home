@@ -129,6 +129,7 @@ a{
 
 .col-25>.prod a>.name:hover{
 color: oranged;
+font-weight: bold;
 }
 
 
