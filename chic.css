@@ -111,11 +111,7 @@ ul.vmenu>li>a:hover{
 }
 
 
-  
-a{
-    text-decoration: none;
-  
-}
+
 
 
 .col-25>.prod a>.name{
@@ -124,12 +120,15 @@ a{
     position: relative;
     font-weight: bold;
     text-align: center;
+    text-decoration: none !important;
+}
+a{
     text-decoration: none;
 }
 
 .col-25>.prod a>.name:hover{
-color: oranged;
 font-weight: bold;
+color:orangered;
 }
 
 
