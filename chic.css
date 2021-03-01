@@ -1,9 +1,9 @@
 body{
     padding:0px;
-    margin: 0px 140px;
+    margin: 0px 0px;
 }
 #page{
-  
+  margin: 0px 100px;
 }
 header{
     height:0px;
@@ -23,6 +23,7 @@ nav{
 }
 section{
     width: 100%;
+    
 }
 article{
     min-height:400px;
@@ -40,10 +41,19 @@ aside{
 }
 footer{
     border-top:5px double orangered;
-    line-height:50px;
+    line-height: 10px;
     background-color:  #06B7BF ;
-    text-align:right;
     clear:both;
+    
+}
+.foot{
+    margin: 20px 0px 60px 80px;
+    color: black;
+}
+.foott{
+    margin: 20px 0px 0px 80px;
+    color: black;
+    margin: 20px 0px 60px 80px;
 }
 nav>a{
     color: white;
@@ -99,6 +109,10 @@ ul.vmenu>li>a:hover{
 .col-25{
     width:30%;
     float:left;
+}
+
+.col-25 a:hover{
+    color:gray;
 }
 .prod{
      border-radius: 5px;
@@ -327,7 +341,7 @@ tr:first-child{
     font-weight: bold;
     font-size: 35px;
     text-decoration: none;
-    margin: 60px 80px 40px 10px;
+    margin: 30px 80px 40px 50px;
     color:blue;
 }
 .container>a:hover{
@@ -335,6 +349,29 @@ tr:first-child{
     font-weight: bold;
    
 }
+.container1>a{
+   
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+    color:blue;
+   
+    
+}
+.container1{
+   
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+    margin: 500px 80px 40px 150px;
+    color:blue;
+}
+.container1>a:hover{
+    color:orangered;
+    font-weight: bold;
+   
+}
+
 .column{
     width: 300px;
     height: 290px;
@@ -363,7 +400,7 @@ tr:first-child{
 }
 .column4{
     width: 95%;
-    background-color: lightgray;
+    
    
     float: left;
     margin: 30px 15px 150px 5px;  
@@ -404,7 +441,7 @@ tr:first-child{
 }
 .nd{
     font-size: 17px;
-    margin: 20px;
+    margin: 10px 40px 50px 150px;
 }
 .ndd{
     text-align: center;
@@ -428,4 +465,42 @@ color: orangered;
 font-weight: bold;
 text-decoration: underline;
 }
+.ct{
+    margin: 30px;
+    font-size: 20px;
+    clear: both;
+}
+.detail{
+    width: 100%;
+}
+.detail>.detail-image{
+    width: 40%;
+    float: left;
+    margin: 30px 10px 20px 100px;
+   
+}
+.detail-description{
+width: 40%;
+float: left;
+margin: 10px;
+font-size: 20px;
 
+}
+
+.form-button1{ 
+    margin: 60px 100px;
+    padding: 15px 40px;
+    outline:none;
+    border:none;
+    border-radius:20px;
+    font-weight:bold;
+    background-color:orangered;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.form-button1:hover{
+   
+    box-shadow:inset 0px 0px 20px whitesmoke;
+}
